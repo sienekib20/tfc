@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Syne';
+  src: url("Syne/static/Syne-Regular.ttf") format(TrueType);
+}
+
+@font-face {
+  font-family: 'Syne-5';
+  src: url("Syne/static/Syne-Bold.ttf") format(TrueType);
+}

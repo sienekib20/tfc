@@ -1,0 +1,56 @@
+:root {
+  --color-1: #FF2093;
+  --color-2: #DAE4EF;
+  --color-3: #FFF100;
+  --color-4: #181720;
+  --color-4: #FBFBFB;
+  --color-5: #FFFFFF;
+  --color-6: #14121E;
+  --color-7: #FFEFE2;
+  --color-8: #FCF3FD;
+  --color-9: #191919;
+}
+
+.main-bg-color-dark {
+  background-color: #151515;
+}
+
+body {
+  font-family: 'Barlow-Regular', sans-serif;
+  font-family: 'Clarkson', sans-serif;
+  font-family: 'Syne', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.wrapper .container {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.wrapper .contain-wrapper {
+  width: 80%;
+}
+
+.card,
+.card-top,
+.card-body {
+  width: 100%;
+  position: relative;
+}
+
+.card-heading {
+  /*font-family: 'Clarkson-5';*/
+  font-family: 'Barlow-Bold';
+  margin-bottom: -5px;
+}
+
+@media (max-width: 992px) {
+  .card-heading {
+      font-size: 1.3rem;
+  }
+}
